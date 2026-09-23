@@ -1,0 +1,114 @@
+/* Full Page Background */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff; /* PURE WHITE BACKGROUND */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Glassy Premium Card */
+.login-card {
+  width: 370px;
+  padding: 40px;
+  border-radius: 22px;
+
+  /* Glossy Glass Effect */
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px) saturate(180%);
+
+  /* Premium Soft Shadows */
+  box-shadow: 
+      0 10px 35px rgba(0, 0, 0, 0.1),
+      0 4px 15px rgba(0, 0, 0, 0.05);
+
+  text-align: center;
+  color: #4a00e0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Title */
+.login-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Labels */
+.login-form label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0 6px;
+  color: #333;
+}
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 13px;
+  border-radius: 12px;
+  border: 1px solid rgba(120, 120, 120, 0.2);
+  outline: none;
+  margin-bottom: 12px;
+  font-size: 15px;
+
+  /* Soft glossy input background */
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+  color: #4a00e0;
+}
+
+.login-form input:focus {
+  border: 1px solid #8e2de2;
+  box-shadow: 0 0 8px rgba(142, 45, 226, 0.45);
+}
+
+.login-form input::placeholder {
+  color: #888;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 13px;
+  margin-top: 18px;
+  background: #007bff; 
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 6px 18px rgba(0, 123, 255, 0.35); /* blue shadow */
+}
+
+.login-btn:hover {
+  background: #007bff; /* Same color on hover */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.45); /* stronger blue shadow */
+}
+
+/* Register text */
+.register-text {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #444;
+}
+
+.register-link {
+  color: #6a11cb;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
